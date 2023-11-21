@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E46D4D0-9D75-46BD-8E43-9516EED3A56E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proiect_Info_23._11._2023</RootNamespace>
+    <AssemblyName>Ciolocoi_Ioan_Laurentiu_Proiect Info 23.11.2023</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hiroshima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hiroshima.Designer.cs">
+      <DependentUpon>Hiroshima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kobe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kobe.Designer.cs">
+      <DependentUpon>Kobe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kyoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kyoto.Designer.cs">
+      <DependentUpon>Kyoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Osaka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Osaka.Designer.cs">
+      <DependentUpon>Osaka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quiz.Designer.cs">
+      <DependentUpon>quiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sapporo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sapporo.Designer.cs">
+      <DependentUpon>Sapporo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tokyo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tokyo.Designer.cs">
+      <DependentUpon>Tokyo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yokohama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yokohama.Designer.cs">
+      <DependentUpon>Yokohama.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hiroshima.resx">
+      <DependentUpon>Hiroshima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kobe.resx">
+      <DependentUpon>Kobe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kyoto.resx">
+      <DependentUpon>Kyoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Osaka.resx">
+      <DependentUpon>Osaka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="quiz.resx">
+      <DependentUpon>quiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sapporo.resx">
+      <DependentUpon>Sapporo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tokyo.resx">
+      <DependentUpon>Tokyo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yokohama.resx">
+      <DependentUpon>Yokohama.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\japan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tokyo tower.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sensoji%28Asakusa Kannon Temple%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tokyo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palatul-imperial-tokyo-1200x1800-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altarul meji.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tokyo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\japan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Muzeul berii Sapporo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moerenuma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Muzeul Hokkaido.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asahiyama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minato_Mirai_In_Blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yokohama-chinatown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ramen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Akarenga-Soko--700x465.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kinkaku-ji_the_Golden_Temple_in_Kyoto_overlooking_the_lake_-_high_rez.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kyoto-fushimi-inari-taisha-213932.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kiyomizu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bamboo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\park.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\141025_Kobe_Oji_Zoo_Kobe_Japan01s3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ikuta_Shrine_honden.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-683475320-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14072262993_4a8a27cbbf_k.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\118-Dotonbori-Area-Osaka1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\castel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Universal-Studios-Japan-Entrance-Arch-by-Joshua-Meyer.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-Childrens-Peace-Monument.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Itsukushima_Gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\castel hiroshima.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memorial park hiro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maze %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1414160809-612x612-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1414160809-612x612-removebg-preview1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
